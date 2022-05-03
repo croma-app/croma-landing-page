@@ -5,7 +5,7 @@
 
 title: Croma - Palette Manager
 email: admin@croma.app
-description: Free to use static landing page template to showcase your mobile app
+description: Croma - Palette Manager - Get ideas for colors on the go
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://croma.app" # the base hostname & protocol for your site, e.g. http://example.com
 theme_color: '#efeeff'
@@ -29,7 +29,7 @@ github: https://github.com/croma-app/croma-react
 ### Google webmaster tools, Google Analytics, Doorbell and Cookie consent uncomment and put the API key
 #webmaster_verifications:
 #  google: verification_code
-#google_analytics: UA-XXXXXXXXX-X
+google_analytics: G-P9VYCZPJQW
 #doorbell:
 #  id: doorbell_id
 #  appKey: doorbell_appKey
