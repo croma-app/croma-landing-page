@@ -4,7 +4,7 @@ app:
 
 footer:
   links:
-    - Discord
+    - title: Discord
       url: https://discord.com/invite/ZSBVsBqDtg
     - title: Github
       url: https://github.com/croma-app/croma-react
