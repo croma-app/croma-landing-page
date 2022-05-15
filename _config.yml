@@ -30,6 +30,7 @@ github: https://github.com/croma-app/croma-react
 #webmaster_verifications:
 #  google: verification_code
 google_analytics: G-P9VYCZPJQW
+ad_tracking_tag: AW-834081170
 #doorbell:
 #  id: doorbell_id
 #  appKey: doorbell_appKey
