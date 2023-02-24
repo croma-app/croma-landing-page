@@ -2,6 +2,7 @@
 layout: default
 ---
 <header class="app__header container">
+  
   <div class="app__logo-wrapper">
     <img class="app__logo" src="/assets/images/appicon.svg" alt="{{ site.data.app.name }} Icon">
   </div>
@@ -10,10 +11,10 @@ layout: default
     <p class="app__description">{{ site.data.app.description }}</p>
     <div class="app__buttons app__buttons--desktop">
       {% if site.data.app.android != false %}
-      <a href="{{ site.data.app.android }}" class="app__button-play" target="_blank"><img src="/assets/images/google-play-badge.png" alt="Get on Google Play"></a>
+      <a onclick="return gtag_report_conversion('{{ site.data.app.android }}')" href="{{ site.data.app.android }}" class="app__button-play" target="_blank"><img src="/assets/images/google-play-badge.png" alt="Get on Google Play"></a>
       {% endif %}
       {% if site.data.app.iOS != false %}
-      <a href="{{ site.data.app.iOS }}" class="app__button-ios" target="_blank"><img src="/assets/images/ios.svg" alt="Get on Appstore"></a>
+      <a onclick="return gtag_report_conversion('{{ site.data.app.iOS }}')" href="{{ site.data.app.iOS }}" class="app__button-ios" target="_blank"><img src="/assets/images/ios.svg" alt="Get on Appstore"></a>
       {% endif %}
       {% if site.data.app.web != false %}
       <a href="{{ site.data.app.web }}" class="app__button-web" target="_blank"><img src="/assets/images/pwa-badge.png" alt="Go to website"></a>
@@ -23,10 +24,10 @@ layout: default
 </header>
 <div class="app__buttons app__buttons--mobile container">
   {% if site.data.app.android != false %}
-  <a href="{{ site.data.app.android }}" class="app__button-play" target="_blank"><img src="/assets/images/google-play-badge.png" alt="Get on Google Play"></a>
+  <a onclick="return gtag_report_conversion('{{ site.data.app.android }}')" href="{{ site.data.app.android }}" class="app__button-play" target="_blank"><img src="/assets/images/google-play-badge.png" alt="Get on Google Play"></a>
   {% endif %}
   {% if site.data.app.iOS != false %}
-  <a href="{{ site.data.app.iOS }}" class="app__button-ios" target="_blank"><img src="/assets/images/ios.svg" alt="Get on Appstore"></a>
+  <a onclick="return gtag_report_conversion('{{ site.data.app.iOS }}')" href="{{ site.data.app.iOS }}" class="app__button-ios" target="_blank"><img src="/assets/images/ios.svg" alt="Get on Appstore"></a>
   {% endif %}
   {% if site.data.app.web != false %}
   <a href="{{ site.data.app.web }}" class="app__button-web" target="_blank"><img src="/assets/images/pwa-badge.png" alt="Go to website"></a>
