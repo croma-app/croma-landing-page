@@ -5,7 +5,7 @@
 
 title: Croma - Palette Manager
 email: admin@croma.app
-description: Croma - Palette Manager - Get ideas for colors on the go
+description: Croma - Palette Manager(Now renamed as HueHive) - Buzzing with inspiration for your color palettes
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://croma.app" # the base hostname & protocol for your site, e.g. http://example.com
 theme_color: '#efeeff'
@@ -16,7 +16,7 @@ logo: assets/images/large-logo.png
 twitter:
   username: kamalkishor1991
 social:
-  name: Sandoche Adittane
+  name: HueHive
   links:
     - https://twitter.com/kamalkishor1991
     - https://github.com/croma-app
